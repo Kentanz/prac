@@ -124,4 +124,4 @@ def loginUser():
         return jsonify(output),500
 
 if __name__ == '__main__':
-    app.run(debug=True) #start the flask app with default port 5000
+    app.run(debug=False) #start the flask app with default port 5000
